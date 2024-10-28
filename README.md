@@ -6,7 +6,7 @@
 (there might be error(s) in that german sentence, I am still learning... :D)
 
 This project has TWO main goals:
-- Make learning about computers easier and try to encourage people to experiment with technology. \
+- Make learning about computers easier and try to encourage people to experiment with technology.
 - Trying to make everyone recognize Nim as valid option for lower level development, because this language REALLY has potential for it.
 
 ## Why I chose Nim for this project?

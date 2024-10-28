@@ -1,15 +1,5 @@
 import scheduler
-import tools/devices
+import tools/[devices, modules]
 
-let parentProcess = process(pid: 1, label: "rootp", niceToKnow: "Father of all processes", tag: SYSTEM)
-
-processes.add(parentProcess)
-
-var connectedDevices: seq[Device]
-
-proc boot() =
-    echo "work in progress..."
-
-
-
-boot()
+proc kmain() =
+  discard checkModules()
